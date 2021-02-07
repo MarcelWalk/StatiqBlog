@@ -1,4 +1,6 @@
 Title: About
+Description: About Me Page
+Author: Marcel Walk
 ---
 # About
 

@@ -1,5 +1,5 @@
 Title: My Post
-ShowInNavbar: false
+Author: Marcel Walk
 ---
 # Hello World!
 

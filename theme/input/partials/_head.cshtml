@@ -5,16 +5,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <title>@Document.GetString("PageTitle")</title>
-@if(Document.ContainsKey(WebKeys.Description))
-{
-  <meta name="description" content="@Document.GetString(WebKeys.Description)">
-}
-@if(Document.ContainsKey(WebKeys.Author))
-{
-  <meta name="author" content="@Document.GetString(WebKeys.Author)">
-}
-
-  
+  @if(!String.IsNullOrEmpty(@Model.GetString("Description")))
+  {
+    <meta name="description" content="@Model.GetString("Description")">
+  }
+  @if(!String.IsNullOrEmpty(@Model.GetString("Author")))
+  {
+    <meta name="author" content="@Model.GetString("Author")">
+  }
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
