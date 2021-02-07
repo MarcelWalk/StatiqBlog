@@ -1,5 +1,5 @@
-Title: Welcome
+Title: About
 ---
-# Home
+# About
 
 Hello from my first Statiq page.

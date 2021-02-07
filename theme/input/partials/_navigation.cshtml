@@ -1,0 +1,16 @@
+<nav id="navigation">
+    <ul class="nav-list">
+        <li class="nav-item">
+            <a class="nav-link" href="@Context.GetLink("/")">Home</a>
+        </li>
+        @foreach(IDocument doc in OutputPages.GetChildrenOf("index.html")
+        .Where(x => x.GetBool("ShowInNavbar",true))
+        .OrderBy(x => x.GetInt(Keys.Order)))
+        {
+        // Don't add the home page to the nav bar
+        <li class="nav-item">
+            @Html.DocumentLink(doc, new Dictionary<object, object> { { "class", "nav-link" } })
+        </li>
+        }
+    </ul>
+</nav>

@@ -1,0 +1,35 @@
+html,body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $base-font
+}
+
+main{
+    padding: 3rem 1.5rem 1rem;
+    display: block;
+
+    @media screen and (min-width: $medium) {
+      padding-left: calc(1.5rem + #{$navWidth});
+    }
+  
+    @media screen and (max-width: $medium - 1) {
+      padding-top: calc(3rem + #{$burgerContainerHeight});
+    }
+}
+
+h1{
+    text-align: center;
+}
+
+.page-content{
+width: 100%;
+    max-width: 34rem;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 800px){
+    main {
+        padding-left: calc(1.5rem + 100px);
+    }
+}
