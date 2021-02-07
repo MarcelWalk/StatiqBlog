@@ -17,7 +17,7 @@
         {
             className = "";
 
-            if(Document.GetLink(true).Replace("/","") == doc.Destination.ToString().Split(".")[0]){
+            if(Document.GetLink(true).Replace("/","").StartsWith(doc.Destination.ToString().Split(".")[0])){
                 className = "active";
             }
         // Don't add the home page to the nav bar

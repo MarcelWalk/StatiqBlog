@@ -4,9 +4,17 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Nyasaki | Marcel Walk</title>
-<meta name="description" content="Marcel Walks Personal Page / Blog">
-<meta name="author" content="Marcel Walk">
+<title>@Document.GetString("PageTitle")</title>
+@if(Document.ContainsKey(WebKeys.Description))
+{
+  <meta name="description" content="@Document.GetString(WebKeys.Description)">
+}
+@if(Document.ContainsKey(WebKeys.Author))
+{
+  <meta name="author" content="@Document.GetString(WebKeys.Author)">
+}
+
+  
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
