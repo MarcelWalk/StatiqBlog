@@ -1,5 +1,0 @@
-Title: Welcome
----
-# Home
-
-Hello from my first Statiq page.

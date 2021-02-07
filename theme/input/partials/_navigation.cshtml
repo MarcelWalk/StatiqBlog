@@ -1,16 +1,30 @@
+@{string className = "";}
+@if(
+    @Document.GetLink(true).Replace("/","") == "")
+    {
+                    className = "active";
+    }
 <nav id="navigation">
     <ul class="nav-list">
         <li class="nav-item">
-            <a class="nav-link" href="@Context.GetLink("/")">Home</a>
+            <a class="@className" href="@Context.GetLink("/index.html")">Home</a>
         </li>
         @foreach(IDocument doc in OutputPages.GetChildrenOf("index.html")
         .Where(x => x.GetBool("ShowInNavbar",true))
         .OrderBy(x => x.GetInt(Keys.Order)))
         {
+            if (doc.Destination != "index.html")
+        {
+            className = "";
+
+            if(Document.GetLink(true).Replace("/","") == doc.Destination.ToString().Split(".")[0]){
+                className = "active";
+            }
         // Don't add the home page to the nav bar
         <li class="nav-item">
-            @Html.DocumentLink(doc, new Dictionary<object, object> { { "class", "nav-link" } })
+            @Html.DocumentLink(doc, new Dictionary<object, object> { { "class", className } })
         </li>
+        }
         }
     </ul>
 </nav>

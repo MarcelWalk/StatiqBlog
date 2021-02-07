@@ -64,10 +64,18 @@
 
 }
 
-.nav-link {
+.nav-list a{
     color: $grey;
     text-decoration: none;
     font-size: 2em;
+
+    &.active {
+        color: $black;
+      }
+    
+      &:hover {
+        color: $black;
+      }
 
     @media screen and (min-width: $medium) {
         font-size: 1em;
