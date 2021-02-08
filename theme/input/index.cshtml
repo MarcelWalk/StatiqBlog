@@ -5,10 +5,12 @@ Description:
   I'm Marcel Walk and this is my personal website and blog.
   I'm a Software Developer specilized in C# and Websites
 ---
-<div class="center">
-  <h1 class="landing-heading">@Context.GetString("SiteTitle")</h1>
-  <h2 class="landing-subheading typing">@Context.GetString("SiteDescription")</h2>
-  
-  <!-- TODO: UPDATE WITH IONICONS -->
-  @Html.Partial("partials/_social")
+<div class="splash-container">
+  <div class="splash">
+    <h1 class="landing-heading">@Context.GetString("SiteTitle")</h1>
+    <h2 class="landing-subheading typing">@Context.GetString("SiteDescription")</h2>
+
+    <!-- TODO: UPDATE WITH IONICONS -->
+    @Html.Partial("partials/_social")
+  </div>
 </div>

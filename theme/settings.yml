@@ -13,9 +13,5 @@ IsPost: => Outputs.FilterSources(Context.GetString("PostSources")).ContainsById(
 Layout: /partials/_layout.cshtml
 
 LinkedIn: "linkedin"
-Twitter: "something"
 Email: "walk.marcel.97@googlemail.com"
-Discord: "discord.gg/me"
-Twitch: "nyasaki_at"
 GitHub: "MarcelWalk"
-StackOverflow: "MarcelWalk"

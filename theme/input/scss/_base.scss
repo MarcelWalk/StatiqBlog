@@ -8,6 +8,7 @@ html,body{
 main{
     padding: 3rem 1.5rem 1rem;
     display: block;
+    height: 100%;
 
     @media screen and (min-width: $medium) {
       padding-left: calc(1.5rem + #{$navWidth});
@@ -16,10 +17,6 @@ main{
     @media screen and (max-width: $medium - 1) {
       padding-top: calc(3rem + #{$burgerContainerHeight});
     }
-}
-
-h1{
-    text-align: center;
 }
 
 .page-content{
