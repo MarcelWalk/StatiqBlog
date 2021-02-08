@@ -1,7 +1,7 @@
 ---
 author:
   name: "Marcel Walk"
-date: 2021-01-30
+Published: 2021-01-30
 linktitle: My first entry
 type:
 - post
