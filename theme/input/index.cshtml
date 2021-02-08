@@ -1,11 +1,12 @@
 Order: 0
-ArchiveSources: => GetString("PostSources")
-ArchiveFilter: => GetBool("IsPost")
-ArchiveDestination: >
-  => GetInt("Index") <= 1 ? $"index.html" : $"page/{GetInt("Index")}.html"
-ArchivePageSize: 3
-ArchiveOrderKey: Published
-ArchiveOrderDescending: true
-ArchiveTitle: => GetString("Title")
+Title: Home
+Author: Marcel Walk
+Description: 
+  I'm Marcel Walk and this is my personal website and blog.
+  I'm a Software Developer specilized in C# and Websites
 ---
-    <p>All is a post</p>
+<div class="center">
+<h1>Marcel Walk</h1>
+    <p>Bla Bla Bla</p>
+    @Html.Partial("partials/_social")
+    </div>

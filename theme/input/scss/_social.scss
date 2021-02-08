@@ -1,0 +1,23 @@
+.social-icons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 2rem;
+  }
+  
+  .social-icons__link {
+    padding: 0.8rem;
+  
+    &:not(:last-child) {
+      margin-right: 1em;
+    }
+    
+    .social-icons__icon {
+    color: #000;
+    font-size: 5rem;
+      width: 2rem;
+      height: 2rem;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }

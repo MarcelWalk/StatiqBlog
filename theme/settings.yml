@@ -10,3 +10,11 @@ Copyright: => $"Copyright Marcel Walk © {DateTime.Now.Year}"
 PostSources: posts/*
 IsPost: => Outputs.FilterSources(Context.GetString("PostSources")).ContainsById(Document)
 Layout: /partials/_layout.cshtml
+
+LinkedIn: "linkedin"
+Twitter: "something"
+Email: "walk.marcel.97@googlemail.com"
+Discord: "discord.gg/me"
+Twitch: "nyasaki_at"
+GitHub: "MarcelWalk"
+StackOverflow: "MarcelWalk"
