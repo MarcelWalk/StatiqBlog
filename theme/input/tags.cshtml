@@ -33,6 +33,6 @@ else
     @foreach (IDocument tag in Document.GetChildren().OrderByDescending(x => x.GetChildren().Count()))
     {
         string postCount = tag.GetChildren().Count().ToString();
-        <a role="button" href="@Context.GetLink(tag)" class="badge badge-light"> @tag.GetTitle() (@postCount)</a>
+        <a href="@Context.GetLink(tag)"> @tag.GetTitle() (@postCount)</a>
     }
 }
