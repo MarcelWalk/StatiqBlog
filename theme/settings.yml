@@ -6,6 +6,7 @@ PageTitle: |
     string title = GetString("Title");
     return string.IsNullOrWhiteSpace(siteTitle) ? title : (string.IsNullOrWhiteSpace(title) ? siteTitle : $"{siteTitle} - {title}");
   }
+SiteDescription: "A passionate developer from Leoben, Austria"
 Copyright: => $"Copyright Marcel Walk © {DateTime.Now.Year}"
 PostSources: posts/*
 IsPost: => Outputs.FilterSources(Context.GetString("PostSources")).ContainsById(Document)
