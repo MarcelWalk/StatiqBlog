@@ -5,6 +5,8 @@ html,body{
     font-family: Raleway, sans-serif;
 }
 
+
+
 main{
     padding: 3rem 1.5rem 1rem;
     display: block;
@@ -29,4 +31,8 @@ main{
     main {
         padding-left: calc(1.5rem + 100px);
     }
+}
+
+img{
+    width: 100%;
 }
