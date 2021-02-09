@@ -3,16 +3,11 @@ title: Blue Yeti - Why I Will Return It
 description: 
   I was excited that the Blue Yeti arrived in mail yesterday.
   Because I am planning to stream programming and gaming I was looking for a proper microphone.
-  So here is my review on the Blue Yeti!
 Published: 2021-02-01
-author:
-  name: "Marcel Walk"
-linktitle: review blue yeti
-type:
-- post
-- posts
-tags:
+author: "Marcel Walk"
+Tags: 
 - Gear
+- Streaming
 ---
 
 ## Intro

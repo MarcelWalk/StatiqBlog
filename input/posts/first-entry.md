@@ -1,14 +1,11 @@
 ---
-author:
-  name: "Marcel Walk"
+Author: "Marcel Walk"
+description: 
+  A short summary of some experiences I made and the Jobs I have / had.
+  Just to let people get an impression of me!
 Published: 2021-01-30
-linktitle: My first entry
-type:
-- post
-- posts
-title: My First Entry / My Story
-weight: 10
-tags:
+Title: My First Entry / My Story
+Tags:
 - Personal
 ---
 
