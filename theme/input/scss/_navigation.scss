@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: $white;
+    background: $background;
     visibility: hidden;
     z-index: 1;
 
@@ -70,11 +70,11 @@
     font-size: 2em;
 
     &.active {
-        color: $black;
+        color: $foreground;
       }
     
       &:hover {
-        color: $black;
+        color: $foreground;
       }
 
     @media screen and (min-width: $medium) {

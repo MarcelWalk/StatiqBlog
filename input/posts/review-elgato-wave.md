@@ -11,7 +11,7 @@ Tags:
 ---
 
 ## Intro
-Since I have tested the Yeti microphone from Blue and wasn't really satisfied with the results, I was very curious if the Wave 1 could deliver better results. If you want to know more why the Yeti wasn't a fit for me [here](https://nyasaki.dev/posts/2021/02/review-blue-yeti/) is the review.
+Since I have tested the Yeti microphone from Blue and wasn't really satisfied with the results, I was very curious if the Wave 1 could deliver better results. If you want to know more why the Yeti wasn't a fit for me [here](https://zealous-mcnulty-e9d3f7.netlify.app/posts/review-blue-yeti) is the review.
 
 ## Looks
 
