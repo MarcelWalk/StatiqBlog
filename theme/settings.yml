@@ -12,6 +12,6 @@ PostSources: posts/*
 IsPost: => Outputs.FilterSources(Context.GetString("PostSources")).ContainsById(Document)
 Layout: /partials/_layout.cshtml
 
-LinkedIn: "linkedin"
+LinkedIn: "https://www.linkedin.com/in/marcel-walk/"
 Email: "walk.marcel.97@googlemail.com"
-GitHub: "MarcelWalk"
+GitHub: "https://github.com/MarcelWalk"
