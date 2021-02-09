@@ -1,3 +1,7 @@
+Title: Tags
+Author: Marcel Walk
+Description: I'm Marcel Walk and this is my personal website and blog where I write about programming, tech and personal things.
+
 ArchiveSources: => GetString("PostSources")
 ArchiveFilter: => GetBool("IsPost")
 ArchiveKey: Tags
@@ -7,7 +11,6 @@ ArchiveDestination: >
 ArchivePageSize: 10
 ArchiveOrderKey: Published
 ArchiveOrderDescending: true
-Title: Tags
 ArchiveTitle: => GetString("GroupKey")
 ---
 @if (Document.ContainsKey(Keys.GroupKey))
@@ -22,7 +25,7 @@ ArchiveTitle: => GetString("GroupKey")
                 {
                     string badgeStyle = Document.GetString(Keys.GroupKey).Equals(tag.GetTitle(), StringComparison.OrdinalIgnoreCase) ? "badge-dark" : "badge-light";
                     string postCount = tag.GetChildren().Count().ToString();
-                    <a href="@Context.GetLink(tag)" class="badge @badgeStyle"> @tag.GetTitle() (@postCount)</a>
+                    <a href="@Context.GetLink(tag)"> @tag.GetTitle() (@postCount)</a>
                 }
             </div>
         </div>
