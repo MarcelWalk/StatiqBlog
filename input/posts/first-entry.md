@@ -9,6 +9,8 @@ Tags:
 - Personal
 ---
 
+# My First Entry / My Story
+
 ## Introduction
 
 This is the first post of hopefully many, I'm writing this blog for many reasons.

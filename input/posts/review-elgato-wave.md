@@ -10,6 +10,8 @@ Tags:
 - Streaming
 ---
 
+# Elgato Wave:1 - Should You Buy It?
+
 ## Intro
 Since I have tested the Yeti microphone from Blue and wasn't really satisfied with the results, I was very curious if the Wave 1 could deliver better results. If you want to know more why the Yeti wasn't a fit for me [here](https://zealous-mcnulty-e9d3f7.netlify.app/posts/review-blue-yeti) is the review.
 
@@ -37,7 +39,7 @@ Elagto got you covered with extension rods for 10$ for a pair of 2, they are 58m
 
 ## Is It Worth Buying?
 
-I don't wanna give you a "depends" so here is my honest opinion about the microphone.
+I don't want to give you a "depends" so here is my honest opinion about the microphone.
 I tested it during my last stream and during several discord sessions, and for me it was definitely worth buying.
 I have to say that both microphones had a hard time with me since there was a lot of echo in the background since my recording room is pretty empty, but the Wave:1 performed pretty well, a lot better than the Yeti.
 

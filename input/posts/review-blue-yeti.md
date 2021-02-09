@@ -10,6 +10,8 @@ Tags:
 - Streaming
 ---
 
+# Blue Yeti - Why I Will Return It
+
 ## Intro
 I was excited that the Blue Yeti arrived in mail yesterday.
 Because I am planning to stream programming and gaming I was looking for a proper microphone.

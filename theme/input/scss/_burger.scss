@@ -5,7 +5,7 @@
   padding: 0 1.5rem;
   position: fixed;
   width: 100%;
-  background: $white;
+  background: $background;
   z-index: 2;
 
   @media screen and (min-width: $medium) {
@@ -24,7 +24,7 @@
   position: absolute;
   width: $meatWidth;
   height: $meatHeight;
-  background: $black;
+  background: $accent;
   top: calc(50% - #{$meatHeight} / 2);
   left: calc(50% - #{$meatWidth} / 2);
   transition: all 150ms ease-in;
