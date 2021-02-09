@@ -14,6 +14,8 @@
 @if(!String.IsNullOrEmpty(@Model.GetString("Description")))
 {
 <meta name="description" content="@Model.GetString("Description")">
+<meta property="og:description" content="@Model.GetString("Description")" />
+<meta name="twitter:description" content="@Model.GetString("Description")">
 }
 @if(!String.IsNullOrEmpty(@Model.GetString("Keywords")))
 {
@@ -23,11 +25,19 @@
 
 <title>@Document.GetString("PageTitle")</title>
 
+<meta property="og:title" content="@Document.GetString("PageTitle")" />
+<meta property="og:site_name" content="@Document.GetString("PageTitle")" />
+<meta property="og:type" content="Website" />
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/23500970?s=460&u=9d1f3847e7e960e436051b8d6e39885cf650d841&v=4" />
+<meta property="og:url" content="@Document.GetLink(true)" />
+
+<meta name="twitter:title" content="@Document.GetString("PageTitle")">
+<meta name="twitter:image" content="https://avatars.githubusercontent.com/u/23500970?s=460&u=9d1f3847e7e960e436051b8d6e39885cf650d841&v=4">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@nyasaki_at" />
 
 <link href="/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
-
 <meta name="google-site-verification" content="Yv3DhgCzUsutS3yj15vbZAQLtLjls0FYaoBIKIrLfS0" />
-
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
 <link href="@Context.GetLink("/scss/styles.css")"rel="stylesheet">
