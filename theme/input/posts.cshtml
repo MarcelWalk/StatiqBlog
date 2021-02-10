@@ -1,5 +1,4 @@
 Order: 99
-Title: Posts
 Author: Marcel Walk
 Description: I'm Marcel Walk and this is my personal website and blog where I write about programming, tech and personal things.
 
@@ -13,7 +12,7 @@ ArchiveOrderDescending: true
     .GroupBy(x => x.GetDateTime(WebKeys.Published).Year)
     .OrderByDescending(x => x.Key))
 {
-    <h1 class="bg-dark text-light p-2">@group.Key</h1>
+    <h1>@group.Key</h1>
     foreach (IDocument post in group)
     {
         <div class="post-preview">
