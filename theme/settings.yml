@@ -6,12 +6,14 @@ PageTitle: |
     string title = GetString("Title");
     return string.IsNullOrWhiteSpace(siteTitle) ? title : (string.IsNullOrWhiteSpace(title) ? siteTitle : $"{siteTitle} - {title}");
   }
-SiteDescription: "A passionate developer from Leoben, Austria"
+LandingDescription: "A passionate developer from Leoben, Austria"
 Copyright: => $"Copyright Marcel Walk © {DateTime.Now.Year}"
 PostSources: posts/*
 IsPost: => Outputs.FilterSources(Context.GetString("PostSources")).ContainsById(Document)
 Layout: /partials/_layout.cshtml
 
+Image: https://avatars.githubusercontent.com/u/23500970?s=460&u=9d1f3847e7e960e436051b8d6e39885cf650d841&v=4
+LandingTitle: Marcel Walk
 LinkedIn: "https://www.linkedin.com/in/marcel-walk/"
 Email: "walk.marcel.97@googlemail.com"
 GitHub: "https://github.com/MarcelWalk"
